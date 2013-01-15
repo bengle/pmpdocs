@@ -53,9 +53,11 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> 对应经营类目以及子类目
   
   	构造函数：CateControl
+  	
   		- 调用init（）方法初始化所有功能，包括bindEvents（）方法。
   	
   	functions：
+  	
   		1. bindEvents（）
   			功能：绑定类目模块的所有事件。
   		2. updateDefaultList（）
@@ -66,9 +68,11 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> 对应专场标签、专场标题、专场图片、专场描述、专场资讯、拍品数
   	
   	构造函数：Information
+  	
   		- 调用init（）初始化该部分所有功能，包括图片上传组件、副文本编辑器组件、字符串截取省略组件和bindEvents（）方法。
   	
   	functions：
+  	
   		1. initTextLimit（）
   			功能：设置专场标签、专场标题、专场描述的最大填写长度。
   		2. bindEvents（）
@@ -79,9 +83,11 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> 专场图片上传
   	
   	构造函数：ImageUploader
+  	
   		- 调用init（）方法初始化上传组件。
   	
   	functions：
+  	
   		1. uploaderInit（）	
   			功能：初始化上传组件。
   		2. hideErrorTip（）	
@@ -97,6 +103,7 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   		- pluginConfig：编辑器插件的配置参数；
   	
   	构造函数：EditorModule
+  	
   		- 调用init（）方法初始化编辑器所有功能，包括instance（）、editorInit（）和bindEvents（）。
   	
   	functions：
@@ -118,6 +125,7 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   		- suggestCount，推荐拍品的数量；
   	
   	构造函数：AuditControl
+  	
   		- 调用init（）方法初始化添加拍品所有功能（dialogAction、refuseModule），包括instance（）、bindEvnets（）。
   		
   	functions：
@@ -131,6 +139,7 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> “添加拍品”区域中设置拍品推荐和取消推荐功能。
   	
   	构造函数：AuditAction
+  	
   		- 包括方法addSuggestion（）和removeSuggestion（）。
   	
   	functions：
@@ -150,6 +159,7 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> 拍品操作功能模块。
   	
   	构造函数：CommodityAction
+  	
   		- 包含方法deletCommodity（）。
   		
   	functions：
@@ -163,6 +173,7 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
   	> 专场发布和专场编辑表单验证功能。
   	
   	构造函数：FormControl
+  	
   		- 调用init（）初始化表单验证功能模块（Auth组件），包括initFormValidate（）。
   		
   	functions：

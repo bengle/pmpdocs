@@ -368,11 +368,36 @@ PMP项目采用kissy-pie工具打包，使用方法请参考：https://github.co
 
 	构造函数：Category
 	
-		- 调用init（）方法初始化所有功能。包括instance（）方法。
+		- 调用init（）方法初始化类目部分所有功能。包括instance（）方法。
 	functions：
 	
 		1. instance()，页面加载完成后初始化类目栏功能和数据。
 		2. initCatesBtn（）给每一个类目按钮设置定位。
+* banner.js
+
+	构造函数：Banner
+	
+		- 调用init（）方法初始化banner部分功能。包括initCarous（）方法。
+	functions：
+	
+		1. initCarous（），初始化banner部分轮播功能。
+* brand.js
+
+	构造函数：Brand
+	
+		- 调用init（）方法初始化品牌部分的所有功能。包括initData（）、initSwitchPanel（）、eventhandler（）；
+	functions：
+	
+		1. initData（）
+			功能：初始化加载sns组件的js文件。
+		2. initSwitchPanel（）
+			功能：初始化品牌部分所有轮播模块。
+		3. eventhandler（）
+			功能：绑定品牌部分的事件。
+		4. updatePrecastTab（）方法已失效。
+		5. clearPrecastTab（）方法已失效。
+* market.js
+
 
 
 
